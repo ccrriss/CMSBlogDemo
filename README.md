@@ -27,9 +27,9 @@
 
 
 
-![image-2](https://github.com/ccrriss/CMSBlogDemo/tree/main/screenshots/image-2.png)
+![image-2](https://github.com/ccrriss/CMSBlogDemo/blob/main/screenshots/image-2.png)
 
-![image-3](https://github.com/ccrriss/CMSBlogDemo/tree/main/screenshots/image-3.png)
+![image-3](https://github.com/ccrriss/CMSBlogDemo/blob/main/screenshots/image-3.png)
 
 
 
