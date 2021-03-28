@@ -3,7 +3,7 @@
 
 ​	This demo project is base on:
 
-	#### Backend: 
+#### Backend: 
 
 **Egg.js** and **MySQL** with **egg-sequelize** which is an ORM framework for CURD operations. The html files for front end display are stored in view/frontend folder, and the index.html built from vue will be put into view/admin folder. Controllers and services are similar.
 
