@@ -23,13 +23,13 @@
 
 ### Screen shots:
 
-![image-20210328014307132](C:\Users\ssHss\AppData\Roaming\Typora\typora-user-images\image-20210328014307132.png)
+![image-1](https://github.com/ccrriss/CMSBlogDemo/tree/main/screenshots/image1.png)
 
 
 
-![image-20210328015935307](C:\Users\ssHss\AppData\Roaming\Typora\typora-user-images\image-20210328015935307.png)
+![image-2](https://github.com/ccrriss/CMSBlogDemo/tree/main/screenshots/image2.png)
 
-![image-20210328020109873](C:\Users\ssHss\AppData\Roaming\Typora\typora-user-images\image-20210328020109873.png)
+![image-3](https://github.com/ccrriss/CMSBlogDemo/tree/main/screenshots/image1.png)
 
 
 
