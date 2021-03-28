@@ -1,0 +1,23 @@
+{% extends 'frontend/layout.html' %}
+{% block content %}
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h4>{{ video.title }}</h4>
+    </div>
+    <div class="card-body">
+      <div class="ratio ratio-16x9">
+        {{video.iframe_url |safe}}
+      </div>
+      <p class="card-text">{{ video.createdAt }}</p>
+      <p class="card-text">{{ video.updatedAt }}</p>
+      <a href="#" class="btn btn-primary">Next Video</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelector('iframe').style.width = "100%";
+  document.querySelector('iframe').style.height = document.querySelector('iframe').style.scrollWidth*0.76+'px';
+</script>
+{% endblock %}

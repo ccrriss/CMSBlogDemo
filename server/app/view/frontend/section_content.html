@@ -1,0 +1,14 @@
+{% extends 'frontend/layout.html' %}
+{% block content %}
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h4>{{ section.title }}</h4>
+    </div>
+    <div class="card-body">
+      {{ content.html_text |safe }}
+      <a href="#" class="btn btn-primary">Next Section</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'frontend/layout.html' %}
+
+{% block content %}
+<div class="container">
+  {% if menu %}
+  {% for chapter in menu %}
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            {{chapter.dataValues.title}}
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          {% for section in chapter.dataValues.sectionList %}
+          <div class="accordion-body">
+            <a href="/section_content/{{section.id}}">{{section.title}}</a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  {% else %}
+    <h1>There is no chapter for this book yet.</h1>
+  {% endif %}
+</div>
+{% endblock %}
