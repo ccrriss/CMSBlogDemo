@@ -1,0 +1,47 @@
+<div class="container-fluid mb-3">
+  <div class="row ">
+      <div class="col-12">
+          <div class="swiper-container" style="height: 30rem;">
+              <div class="swiper-wrapper" >
+                  <div class="swiper-slide">
+                      <img src="/image/swiper/swiper1.jpg" alt="swiper1.jpg" >
+                  </div>
+                  <div class="swiper-slide">
+                  <img src="/image/swiper/swiper2.jpg" alt="swiper2.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                  <img src="/image/swiper/swiper3.jpg" alt="swiper3.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                  <img src="/image/swiper/swiper4.jpg" alt="swiper4.jpg">
+                  </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+      </div>
+      
+  </div>
+</div>   
+
+<script src="/js/bootstrap.bundle.js"></script>
+<script src="/js/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoHeight: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>

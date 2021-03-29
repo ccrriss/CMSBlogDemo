@@ -29,11 +29,10 @@ module.exports = app => {
   router.resources('resource', '/api/resource', checkToken, controller.resource);
   router.resources('video', '/api/video', checkToken, controller.video);
   router.resources('user', '/api/user', checkToken, controller.user);
-  //for create user initially
-  // router.resources('user', '/api/user',  controller.user);
-  
   router.post('/api/login', controller.admin.login);
   router.get('/api/userinfo', controller.admin.userinfo);
+  
+  // for image uploading
   router.post('/api/upload', controller.upload.index);
   router.post('/api/downloadImg', controller.download.downloadImg);
   router.post('/api/blogImg', controller.blog.downloadImg);

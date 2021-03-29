@@ -31,9 +31,9 @@
 
 ![image-3](https://github.com/ccrriss/CMSBlogDemo/blob/main/screenshots/image-3.png)
 
+![image-4](https://github.com/ccrriss/CMSBlogDemo/blob/main/screenshots/image-4.png)
 
-
-
+![image-5](https://github.com/ccrriss/CMSBlogDemo/blob/main/screenshots/image-5.png)
 
 ### Future plan:
 
